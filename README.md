@@ -4,7 +4,7 @@ This repository includes files for COMET (Cortex-wide Observational Miniature Ep
 
 ## Overview of COMET
 <video width="100" height="50" src="https://github.com/user-attachments/assets/f9d4e9b6-175c-49de-b77d-f8bc424e642c"></video>
-
+### Components
 <div align=center>
 <img src="/imgs/Explosion.png" width="400" height="300"/><img src="/img/Explosion.png" width="400" height="300"/>
 </div>
