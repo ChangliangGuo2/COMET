@@ -1,0 +1,9 @@
+Image information (Browse directory containing images)
+
+Selected path : H:/CM2scope_experimental_data/trace_fear_conditioning/train/gzc_rasgrf-ai148d-369/My_V4_Miniscope/denoise/train_data
+Number of *.tif files : 1
+First patch from first data (H:/CM2scope_experimental_data/trace_fear_conditioning/train/gzc_rasgrf-ai148d-369/My_V4_Miniscope/denoise/train_data\AMF-MC.tif) will be presented at right side.
+
+Start loading dataset.
+. 
+Finish loading dataset.

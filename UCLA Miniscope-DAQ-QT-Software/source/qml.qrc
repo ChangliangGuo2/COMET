@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Miniscope_V4.qml</file>
+        <file>behaviorCam.qml</file>
+        <file>FpsItem.qml</file>
+        <file>VideoSliderControl.qml</file>
+        <file>img/iconEWL.png</file>
+        <file>img/icon/ewl.ico</file>
+        <file>img/icon/led.ico</file>
+        <file>TopMenu.qml</file>
+        <file>img/MiniscopeLogo.png</file>
+        <file>shaders/imageBasic.vert</file>
+        <file>shaders/imageSaturationScaling.frag</file>
+        <file>VideoSpinBoxControl.qml</file>
+        <file>ControlPanel.qml</file>
+        <file>img/icon/exposure.ico</file>
+        <file>img/icon/gain.ico</file>
+        <file>img/icon/alpha.ico</file>
+        <file>img/icon/beta.ico</file>
+        <file>BNODisplay.qml</file>
+        <file>img/Miniscope_Logo_BNO.png</file>
+        <file>Miniscope_V4_BNO.qml</file>
+        <file>behaviorTracker.qml</file>
+        <file>img/icon/alpha.png</file>
+        <file>img/icon/beta.png</file>
+        <file>img/icon/ewl.png</file>
+        <file>img/icon/fps.png</file>
+        <file>img/icon/gain.png</file>
+        <file>img/icon/led.png</file>
+        <file>Miniscope_V3.qml</file>
+        <file>TraceDisplayWindow.qml</file>
+        <file>shaders/grid.vert</file>
+        <file>shaders/grid.frag</file>
+        <file>shaders/movingBar.vert</file>
+        <file>shaders/movingBar.frag</file>
+        <file>shaders/trace.frag</file>
+        <file>shaders/trace.vert</file>
+        <file>shaders/texture.frag</file>
+        <file>shaders/texture.vert</file>
+        <file>shaders/tracker.vert</file>
+        <file>shaders/tracker.frag</file>
+        <file>shaders/trackerOverlay.frag</file>
+        <file>shaders/trackerOverlay.vert</file>
+        <file>TreeViewerJSON.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+AR93    Bregma至前沿 3.0mm，Bregma至后沿 4.5mm
+AR94    Bregma至前沿 3.0mm，Bregma至后沿 4.4mm
+AR367   Bregma至前沿 3.0mm，Bregma至后沿 4.8mm
+AR369   Bregma至前沿 3.0mm，Bregma至后沿 5.0mm
+AR370   Bregma至前沿 2.8mm，Bregma至后沿 5.0mm
+AR371   Bregma至前沿 3.0mm，Bregma至后沿 4.8mm

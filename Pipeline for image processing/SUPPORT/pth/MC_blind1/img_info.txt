@@ -1,0 +1,9 @@
+Image information (Browse directory containing images)
+
+Selected path : E:/CM2scope/denoise/train_data
+Number of *.tif files : 1
+First patch from first data (E:/CM2scope/denoise/train_data\AMF_MC.tif) will be presented at right side.
+
+Start loading dataset.
+. 
+Finish loading dataset.

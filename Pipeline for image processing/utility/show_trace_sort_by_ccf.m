@@ -1,0 +1,52 @@
+paths='Z:\social\gzc_rasgrf-ai148d-370\My_V4_Miniscope\';
+load([paths,'AMF_MC_denoised_8bit_caiman_result_handcured.mat'])
+load([paths,'mapped_results.mat'])
+trace=C_trace(A_neuron_good_idx+1,:);
+T=size(trace,2);
+blank=100;
+normalized_trace = zeros(size(trace));
+for i = 1:size(trace, 1) % 遍历每一个细胞
+    min_val = min(trace(i, :));
+    max_val = max(trace(i, :));
+    normalized_trace(i, :) = (trace(i, :) - min_val) / (max_val - min_val);
+end
+%% plot all the traces
+img=[];
+for i=1:length(cortical_neuron_id)
+    if length(cortical_neuron_id{i})>=10
+        img=[img;normalized_trace(cortical_neuron_id{i},:)];
+        img=[img;zeros(blank,T)];
+    end
+end
+imshow(img,'border','tight')
+colormap turbo
+
+hold on;
+count=0;
+neroun_count=0;
+for i=1:length(cortical_neuron_id)
+    if length(cortical_neuron_id{i})>=10
+
+        text(-350, count+length(cortical_neuron_id{i})/2, unique_area{1, i},'HorizontalAlignment', 'center','FontSize',15,'FontWeight','normal');
+        neroun_count=neroun_count+length(cortical_neuron_id{i});
+        count=count+length(cortical_neuron_id{i})+blank;
+        text(T-0, count-blank-120, num2str(neroun_count),'HorizontalAlignment', 'right', 'Color', 'white','FontSize',15,'FontWeight','bold');
+    end
+end
+hold off;
+set(gca, 'DataAspectRatio', [1 2 1])
+
+%% random sample traces to plot
+figure
+hold on;
+rand_nums = randperm(neroun_count, 50);
+for i = 1:numel(rand_nums)
+    h=plot(normalized_trace(rand_nums(i),:)*5+i, 'LineWidth', 1);
+h.LineStyle = '-';
+h.Color(4) = 0.8;
+end
+xlabel('frame');
+ylabel('cell number');
+axis([1, T, -0.5, 55]);
+set(gca, 'FontSize', 15 ,'FontName', 'Times New Roman');
+

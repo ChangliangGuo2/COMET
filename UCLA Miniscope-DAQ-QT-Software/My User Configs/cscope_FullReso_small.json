@@ -1,0 +1,133 @@
+{
+    "animalName": "cscope2",
+    "behaviorTracker": {
+        "enabled": false,
+        "modelPath": "C:/PATH/TO/DLC/MODEL",
+        "occupancyPlot": {
+            "enabled": true,
+            "numBinsX": 100,
+            "numBinsY": 100,
+            "poseIdxToUse": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "pCutoffDisplay": 0.3,
+        "poseIdxForTraceDisplay": [
+            "0wh",
+            "1w",
+            "2w"
+        ],
+        "poseOverlay": {
+            "enabled": true,
+            "markerSize": 20,
+            "numOfPastPoses": 6,
+            "skeleton": {
+                "connectedIndices": [
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    [
+                        12,
+                        13
+                    ]
+                ],
+                "enabled": true
+            },
+            "type": "point"
+        },
+        "pyEnvPath": "C:/PATH/TO/ENV",
+        "resize": 0.5,
+        "type": "DeepLabCut-Live",
+        "windowScale": 0.75,
+        "windowX": 200,
+        "windowY": 100
+    },
+    "customEntry0": "customEntValHere",
+    "dataDirectory": "D:/XM/miniscopedata",
+    "devices": {
+        "miniscopes": {
+            "My V4 Miniscope": {
+                "ROI": {
+                    "height": 600,
+                    "leftEdge": 0,
+                    "topEdge": 0,
+                    "width": 600
+                },
+                "compression": "GREY",
+                "deviceID": 0,
+                "deviceType": "Siminiscope_FullReso",
+                "ewl": 50,
+                "frameRate": "10FPS",
+                "framesPerFile": 1000,
+                "gain": "High",
+                "headOrientation": {
+                    "enabled": true,
+                    "filterBadData": true,
+                    "plotTrace": [
+                        "roll",
+                        "pitch",
+                        "yaw"
+                    ]
+                },
+                "led0": 0,
+                "showSaturation": true,
+                "windowScale": 0.3,
+                "windowX": 800,
+                "windowY": 100
+            }
+        }
+    },
+    "directoryStructure": [
+        "researcherName",
+        "experimentName",
+        "animalName",
+        "customEntry0",
+        "date",
+        "time"
+    ],
+    "executableOnStartRecording": {
+        "arguments": [
+            "arg1",
+            "arg2"
+        ],
+        "enabled": false,
+        "filePath": "C:/FILL/OUT/THIS/PATH.exe"
+    },
+    "executableOnStopRecording": {
+        "arguments": [
+            "arg1",
+            "arg2",
+            "arg3"
+        ],
+        "enabled": false,
+        "filePath": "C:/FILL/OUT/THIS/PATH.exe"
+    },
+    "experimentName": "resolution",
+    "recordLengthinSeconds": 600,
+    "researcherName": "performance_test",
+    "traceDisplay": {
+        "enabled": false,
+        "type": "scrolling",
+        "windowHeight": 800,
+        "windowWidth": 600,
+        "windowX": 100,
+        "windowY": 100
+    }
+}

@@ -1,0 +1,57 @@
+trace=gpuArray(single(s_2d'));
+corr =  corrcoef(trace);
+corr_cpu = gather(corr);
+corr_cpu = tril(corr_cpu);
+I = eye(size(corr_cpu));
+corr_cpu = corr_cpu - corr_cpu .* I;
+imshow(corr_cpu,[0,0.8])
+
+% corr_cpu(corr_cpu<0.5)=0;
+histogram(corr_cpu,'BinLimits',[0.5,1])
+
+[row, col] = find((corr_cpu > 0.5) & (corr_cpu < 1));
+corr_cpu(row(1),col(1))
+figure
+subplot(2,1,1)
+plot(c_2d(row(1),:))
+subplot(2,1,2)
+plot(c_2d(col(1),:))
+
+figure
+subplot(2,1,1)
+idx=A_neuron_good_idx(row(1))+1;
+plot(detrended_trace(idx,:))
+subplot(2,1,2)
+idx=A_neuron_good_idx(col(1))+1;
+plot(detrended_trace(idx,:))
+
+figure
+hold on
+for i=1:numel(smoothed_branches)
+    scatter(smoothed_branches{i}(:,2),instrument_size(1)-smoothed_branches{i}(:,1),4,'k', 'filled')
+end
+axis off
+for i=1:length(cortical_neuron_id)
+    scatter(N_Rcenter(cortical_neuron_id{i},1)+resize_rectangle_pos(1),instrument_size(1)-(N_Rcenter(cortical_neuron_id{i},2)+resize_rectangle_pos(2)),15,unique_area{2,i} ,'filled')
+end
+axis equal
+
+parfor i=1:numel(row)
+a=plot([N_Rcenter(row(i),1),N_Rcenter(col(i),1)]+resize_rectangle_pos(1),instrument_size(1)-([N_Rcenter(row(i),2),N_Rcenter(col(i),2)]+resize_rectangle_pos(2)),'LineWidth', 1);
+a.Color(4)=0.2;
+end
+
+% 用于存储图例条目的句柄
+h = zeros(1, size(unique_area, 2));
+% 遍历每种颜色，绘制带有对应颜色的圆圈
+for i = 1:size(unique_area, 2)
+colorRGB = unique_area{2, i}; % RGB 值
+h(i) = plot(NaN,NaN,'o','MarkerEdgeColor',colorRGB,'MarkerFaceColor',colorRGB); % 使用 NaN 来创建图例条目
+end
+% 添加图例
+lgd=legend(h, unique_area(1, :));
+% 去除图例边框和背景
+set(lgd, 'Box', 'off', 'Color', 'none');
+% 隐藏坐标轴
+axis off;
+

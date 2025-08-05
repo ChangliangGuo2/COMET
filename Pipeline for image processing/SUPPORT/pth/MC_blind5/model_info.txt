@@ -1,0 +1,3 @@
+Blind spot size 5 selected.
+
+Will be run on GPU.

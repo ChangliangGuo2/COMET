@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LED_ring")(type "KiCad")(uri "$(KIPRJMOD)/LED_ring.pretty")(options "")(descr ""))
+)

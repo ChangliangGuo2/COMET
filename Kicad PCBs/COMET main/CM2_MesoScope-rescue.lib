@@ -1,0 +1,125 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +3.3V-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue
+#
+DEF +3.3V-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3.3V-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +3V3-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue
+#
+DEF +3V3-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3V3-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# C_Small-.Device
+#
+DEF C_Small-.Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_Small-.Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-power-MS_v4_ETL_LED_Driver_v2-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue
+#
+DEF GND-power-MS_v4_ETL_LED_Driver_v2-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-MS_v4_ETL_LED_Driver_v2-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GRM033R61A104ME15D-.Capacitor-Siminiscope-Ser-Pow-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue
+#
+DEF GRM033R61A104ME15D-.Capacitor-Siminiscope-Ser-Pow-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "GRM033R61A104ME15D-.Capacitor-Siminiscope-Ser-Pow-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue" -390 170 50 H I L CNN
+F2 ".Capacitor:C_0201_0603Metric_L" 60 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "0.1uF" 110 -80 50 H V C CNN "Note"
+F5 "0201" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0201*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue
+#
+DEF GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue" -390 170 50 H I L CNN
+F2 ".Capacitor:C_0201_0603Metric_L" 110 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "2.2uF" 110 -80 50 H V C CNN "Note"
+F5 "0201" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0201*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GRM155R60J106ME15D-.Capacitor-Siminiscope-Ser-Pow-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue
+#
+DEF GRM155R60J106ME15D-.Capacitor-Siminiscope-Ser-Pow-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "GRM155R60J106ME15D-.Capacitor-Siminiscope-Ser-Pow-rescue-Kicad_LFOV_RigidFlex_Assembly-rescue-CM2-CM2_MesoScope-rescue-CM2_MesoScope-rescue" -390 170 50 H I L CNN
+F2 ".Capacitor:C_0402_1005Metric_L" 110 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "10uF" 110 -80 50 H V C CNN "Note"
+F5 "0402" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0402*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
