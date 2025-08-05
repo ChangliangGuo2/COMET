@@ -3,6 +3,6 @@ This repository includes files for COMET (Cortex-wide Observational Miniature Ep
 **[[COMET Wiki](https://github.com/ChangliangGuo2/COMET/wiki)] [[Miniscope DAQ Software Wiki](https://github.com/Aharoni-Lab/Miniscope-DAQ-QT-Software/wiki)] [[Miniscope DAQ Firmware Wiki](https://github.com/Aharoni-Lab/Miniscope-DAQ-Cypress-firmware/wiki)]**
 
 ## Optical-electronic-mechanical schematic diagram
-<video width="100" height="50" src="https://github.com/ChangliangGuo2/COMET/img/COMET"></video>
+<video width="100" height="50" src="https://github.com/ChangliangGuo2/COMET/img/COMET.mp4"></video>
 
 <p dir="auto"><strong>All information, guides, and tutorials can be found on the <a href="https://github.com/ChangliangGuo2/COMET/wiki">COMET Wiki Page</a>.</strong></p>
