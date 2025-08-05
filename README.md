@@ -10,7 +10,7 @@ This repository includes files for COMET (Cortex-wide Observational Miniature Ep
 </div>
 
 ### Specfications
- **Field of View**: up to 10-mm in diameter
+- **Field of View**: up to 10-mm in diameter
 - **Resolution**: single cell_ resolution
 - **Working Distance**: ~5mm working distance
 - **Illumination**: Optimized led ring excitation for even illuminiation across the field of view
