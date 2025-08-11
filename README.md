@@ -16,7 +16,7 @@ This repository includes files for COMET (Cortex-wide Observational Miniature Ep
 - **Illumination**: Optimized led ring excitation for even illuminiation across the field of view
 - **Optics**: customized optical system for miniature abberations across the field of view
 - **Photo-Bleaching**: _Low photo-bleaching_ even after _two hours of continuous imaging_
-- **Weight**: 3.75 grams_
+- **Weight**: 3.75 grams
 - **Impact on Subjects**: Combined with intergrated active commutator(Torque-free),essentially there is _no impact on the free behavior_ of mice even during _two hours_ of continuous imaging
 - **Orientation Sensor**: Absolute head orientation sensor
 - **Focal Adjustment**: electronic focal adjustment(optional)
